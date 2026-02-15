@@ -4,7 +4,13 @@ layout: layouts/page.njk
 permalink: /questions/javascript-questions/index.html
 ---
 
-* Explain event delegation.
+* Explain event delegation.  
+
+**Event delegation is a technique where instead of attaching event listeners to multiple child elements, you attach one single event listener to a parent element, and let events “bubble up” from the children to the parent.
+This works because of event bubbling:
+When an event happens on an element, it travels up the DOM tree, triggering listeners on ancestor elements.**
+
+
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
 * Explain how prototypal inheritance works.
