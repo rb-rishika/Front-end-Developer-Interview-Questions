@@ -5,6 +5,8 @@ permalink: /questions/html-questions/index.html
 ---
 
 * What does a `doctype` do?
+A DOCTYPE (Document Type Declaration) tells the browser what version of HTML your document is written in so it knows how to interpret and render it correctly.
+
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when designing or developing for multilingual sites?
 * What are `data-` attributes good for?
