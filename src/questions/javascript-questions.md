@@ -10,6 +10,12 @@ permalink: /questions/javascript-questions/index.html
 
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
+
+  **In JavaScript, the value of this is determined by HOW a function is called, not where it is defined.**
+**It does not behave like this in most other languages.**
+  
+
+
 * Explain how prototypal inheritance works.
 * What is the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
